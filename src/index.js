@@ -12,7 +12,7 @@ const isProd = process.env.NODE_ENV === "production";
 app.use(
   cors({
     origin: isProd
-      ? ["https://your-client.vercel.app"]
+      ? ["https://yusanggon-portfolio.uk"]
       : ["http://localhost:5173"],
     methods: ["GET", "POST", "OPTIONS"],
     allowedHeaders: ["Content-Type"],
